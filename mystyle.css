@@ -3,6 +3,8 @@
 body {
 	background-color: #E0FCEC;
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	border-style: solid;
+	border-color: #022D41;
 }
 h1 {
 	text-align: center;
@@ -28,14 +30,17 @@ li a:hover {
 	font-weight: bold;
 	font-size: large;
 	text-align: center;
-	
 }
+a:hover {
+    background-color: #1AA6B7;
+}
+
 
 li {
     float: left;
 }
 
-li a {
+.navlink {
 	display: block;
 	padding: 8px;
 	overflow: hidden;
@@ -72,4 +77,4 @@ li a {
 	border-color: #022D41;
 	border-style: solid;
 }
-	
+
