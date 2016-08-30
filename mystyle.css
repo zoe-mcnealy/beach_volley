@@ -1,10 +1,11 @@
 @charset "utf-8";
 
 body {
-	background-color: #E0FCEC;
+	background-color:#A9D0F5;
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 	border-style: solid;
 	border-color: #022D41;
+	background-position: 0% 0%;
 }
 h1 {
 	text-align: center;
@@ -57,14 +58,12 @@ li {
 
 .col1 {
 	width: 24%;
-	background-color: #4CAF50;
 	float: left;
 	border-color: #022D41;
 	border-style: solid;
 }
 .col2 {
 	width: 50%;
-	background-color: #4C7F50;
 	float: left;
 	border-color: #022D41;
 	border-style: solid;
@@ -72,9 +71,21 @@ li {
 
 .col3 {
 	width: 24%;
-	background-color: #4CAF50;
 	float: left;
 	border-color: #022D41;
 	border-style: solid;
 }
 
+
+.playing_guidelines {
+	text-align: left;
+	font-size: x-large;
+}
+
+.text_wrap {
+    text-align: right;
+    text-indent: 2em;
+}
+.image_wrap{
+	text-align: right;
+	float: right;
